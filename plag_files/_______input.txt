@@ -1,0 +1,2 @@
+Bag Words:
+The application vector space retrieval, traditional IR concept, field content similarity detection represented bag words analysis. For pairwise similarity calculations, documents represented one vectors, e.g., various document portions. The standard cosine similarity measure advanced similarity measures may used similarity computation.

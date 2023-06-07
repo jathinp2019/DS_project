@@ -1,0 +1,20 @@
+﻿Name : Sri Naga Jathin P	Reg No. : BL.EN.U4CSE20165
+Report Assignment: 
+1) Do you think the classes you have in your dataset are well separated? Justify your answer.
+
+The classes are well separated as we can see in the below scatter pair plot, they are forming clusters which can be linearly separated. We can draw linear lines with negative slope and separate the dataset based on the clusters it has formed. There may be some outliers which can be normalized, and the class will perfectly be well separated.
+Since the class “High” which is used as hue in the pair plot has multiple varying floating-point values which explains the gradient of colours in the plot for certain fixed values in the legend of the plot. When the floating-point data is classified to its nearest integer and classification is performed on the data, we will have well separated clusters with well defined centroids and no overlapping scatter plot points.
+
+2) Do you think distance between class centroids (mean of vectors in a class) is a good enough measure to test for class separability? Justify your answers. Use diagrams to illustrate your arguments
+
+Yes, it is a good enough measure to test for class separability. In my data the given features are high, low, open, and close. Here, our objective is to predict the high value, hence, the pair plot in the previous question and the line chart given below. There is a variation between the centroids of each feature which can we be well separated from the high value. (Line chart given below is the line plot of the centroids of the features present in the dataset with “Low”, ”High”, ”Open”, ”Close” as the respectively.)
+
+3) Explain the behaviour of the kNN classifier with increase in value of k. Explain the scenarios of over-fitting and under-fitting in kNN classifier.
+
+K is the number of closest data points that are taken to find the data value. For larger K values the classification boundary is smoother. If there is an imbalance in the data that is if a certain category has more values than the other as the k values increases reaching the total number of feature vectors the inaccuracy to find the data value increases. Similarly, if the K value is very small it has a chance to be influenced by outliers if the data is not normalized which also leads to inaccuracy to find the data value.
+ 
+Overfitting is when an algorithm tries to use more data points than required, and can cause noisy data and inaccurate results i.e., when the k value is large. This can also lead to low bias.
+
+Under fitting occurs when the value of k is too small, and the algorithm does not learn enough about the data it is analysing. Therefore, accuracy of predictions is low and can be wrong. This leads to very high bias.
+
+

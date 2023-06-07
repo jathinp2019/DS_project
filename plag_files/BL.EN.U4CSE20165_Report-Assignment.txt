@@ -1,0 +1,16 @@
+Report Assignment: 
+1. Discuss the importance of rank of an observation matrix in model building for classification
+
+The rank of matrix can be determined by reducing the given matrix in row-reduced echelon form. It determines the number of independent variables in the matrix. If there is some unknown data to be recovered in matrix form and it is known that it has low rank then it can be recovered very efficiently. It can be useful in removing the noise of an image by breaking down the image into subparts and finding the rank. 
+
+2. Discuss on regression (Ex: A2) and classification (Ex: A3) tasks. How would you differentiate between them
+
+ Classification : Finding a function to divide the dataset into classes based on several parameters is the process of classification. Based on the previous training dataset we can classify any further values and group them into classes. In the above problem we classified that people who purchased for above 200 rs were rich and the rest were poor. We can give this as a parameter and future when we pass any amount of a person we can predict if he is rich or poor. 
+
+Regression: Regression is the process of finding a model or function to separate the data into continuous real values using regression. Here X vector is the dependent variable and matrix A which is the candies, mangoes, milk packets are the independent variable. In the above problem we classified that people who purchased for above 200 rs were rich and the rest were poor. Based on the previous training dataset we can classify any further values and group them into classes.
+
+3. Observing the stock data provided, record your suggestions to build a system that may be able to predict the price and Change % into future.
+
+ We can apply linear regression as it is helpful in predictions . It helps us to predict by using the pre trained history data from a historical data set. It consists of dependent and independent variables. The variable you want to predict is called dependent variable which is price and change% while the other parameters are independent variable.
+Name : Sri Naga Jathin P	Reg No. : BL.EN.U4CSE20165
+

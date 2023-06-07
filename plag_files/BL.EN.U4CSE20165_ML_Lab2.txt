@@ -1,0 +1,28 @@
+﻿Name: Sri Naga Jathin Penumadi
+Reg. No : BL.EN.U4CSE20165
+ML Lab 2
+Question 1:
+a)
+
+
+
+
+
+
+
+
+Question 1:
+b)
+
+
+Question 1:
+c) 
+Bag of Words:
+The application of vector space retrieval, a traditional IR concept, to the field of content similarity detection is represented by bag of words analysis. For pair wise similarity calculations, documents are represented as one or more vectors, e.g., for various document portions. The standard cosine similarity measure or more advanced similarity measures may then be used in similarity computation.
+
+Neural Systems:
+The accuracy of more recent methods for evaluating content similarity using neural networks has increased dramatically, albeit at a high computational and material expense. These methods employ neural networks, in which the two texts are each input into a model to produce vector embeddings. Once the embeddings are received, a system can compute any number of differentiating metrics, such as the cosine similarity between the vectors. This strategy has proven unworkable for large scale or publicly accessible systems since many similarity detection methods must comb through millions, if not billions, of documents.
+
+    Approaches:
+    - Local Similarity Approach: Local techniques only look at pre-selected text segments as input.
+    - Global Similarity Approach: Global Similarity Assessment approaches incorporate features gathered from bigger portions of the text or the document to compute similarity.
