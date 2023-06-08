@@ -2,9 +2,19 @@ import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
+import time
+from plag_files import timeplag
+import spacy
+from spacy.lang.en.stop_words import STOP_WORDS
+from transformers import pipeline
+from string import punctuation
+from heapq import nlargest
+from transformers import PegasusForConditionalGeneration, AutoTokenizer
+timeplag.timing()
+import torch
+import re
 from difflib import SequenceMatcher
 import sys
-import time
 
 def plag(text):
     print("Plag file ",text)
