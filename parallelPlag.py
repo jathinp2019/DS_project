@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
 from difflib import SequenceMatcher
 import os
-
+import time
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
